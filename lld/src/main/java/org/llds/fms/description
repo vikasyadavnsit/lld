@@ -1,0 +1,30 @@
+Flight Management System
+
+Actors:-
+- User
+- System
+- Admin
+
+
+Story Points for MVP
+- User can register
+- User can search the availability of flights based on source and destinations
+- user can choose the  direct or connecting flights
+- User can choose the seating class
+- User can book multiple flights at scheduled times
+- user can see the travel history
+
+
+Advanced Story Points
+- user can cancel the flight
+- user can carry the luggage
+- user can filter the search results based on params like time, seats, flight
+- User can pay the amount
+- user can put multiple stop points with different date and times;
+
+Logic Building
+- find the connecting flights [ we can use the directed graph and then find all the paths between source
+  and destination. once we get all the paths can filter them out on the basis of associated cost, stops etc. ]
+
+Doubt
+- does a flight can have multiple pickup points

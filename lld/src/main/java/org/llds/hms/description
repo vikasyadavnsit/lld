@@ -1,0 +1,20 @@
+Hotel Management System & Hotel Reservation System
+
+Actors:-
+- User
+- Admin
+- Hotel Admin
+- System
+
+Story points for MVP:-
+- User can register
+- User can search hotels\villas\residency etc and filter them on the basis of room size , price ,city, luxury etc.
+- User can make multiple reservations at scheduled times
+- User can cancel complete or part of a reservation
+- Hotel Admin can make/modify/cancel reservations on the behalf of user
+
+Advanced Story Points:-
+- user can pay
+- User will get the notification for cancellation, booking
+- Admin can add/remove/modify hotels in the itinerary
+- User can order food/beverages/cab etc.

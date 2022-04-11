@@ -1,0 +1,33 @@
+Food Management Service : Zomato
+
+Actors:-
+Customer
+Restaurant
+Delivery Agent
+System
+
+Story Points for Customer:-
+- Customer can register themselves
+- Customer can search food items by name , by category like italian, non veg etc.
+- Customer can search restaurants
+- Customer can see restaurant menu
+- Customer can order multiple food items from multiple restaurants
+- Customer can add multiple delivery locations
+- Customer can see the total amount to paid
+- Customer can pay the amount
+- Customer can track delivery status of food items  [ Customer will receive delivery updates through notification]
+- Customer can see the previous orders
+- Customer can cancel an order (will be shown in the order history)
+
+Story Points for Restaurants :-
+- Restaurants can list themselves on food ordering service
+- Restaurants can add/delete/update food menu items
+- Restaurants can accept or reject an order   [will receive a notification , when order is placed]
+- Restaurants will update the order status when handed over to delivery agent
+- Restaurants can see their summarised reports daily
+
+Story points for Delivery Agent:-
+- Delivery agents can register themself
+- Delivery agents Will receive updates to pick orders from restaurants
+- Delivery agents will deliver the food items at their delivery location
+- Delivery agents will update the order status ( delivery successful,failed or any other reason)
