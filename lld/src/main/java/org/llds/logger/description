@@ -1,0 +1,12 @@
+
+Stories:-
+
+- Should be able to log in more than one place like console, Log file , database etc.
+- Should be able to log multiple category of messages like INFO, DEBUG, ERROR etc.
+- category and place of logging should be configurable
+
+
+                                              -->  Console Sinker
+                             --> DEBUG        -->  Database Sinker
+Application  -->  Logger     --> INFO         -->  Kafka Sinker
+                             --> ERROR        -->  File Sinker
