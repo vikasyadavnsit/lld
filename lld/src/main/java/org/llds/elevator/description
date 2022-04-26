@@ -1,0 +1,21 @@
+Multi Elevator Design System
+(For simplicity lets consider we have two elevator controlled from same buttons )
+
+Actors
+User
+System
+
+
+User Stories
+- Users can call the elevator to go up or down
+- Users can see the direction & destination of moving elevator from any floor [ In some cases we can hide the destination ]
+- Users can enter multiple destinations, after stepping inside the elevator
+- Users can see the travel destinations on the screen
+- Users can open/close gates on any floor or apply emergency brakes on or in-between any floor
+
+
+Elevator System Stories
+- It should open and close the doors at each destination at predefined intervals
+- It should warn the Users when elevator is overweight to step down
+- It should stop immediately when the doors are open abruptly while moving ( or slow down & move to the nearest floor and then stop their )
+- It shoudl apply emergency brakes when their is a powercut
